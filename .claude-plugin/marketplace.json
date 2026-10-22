@@ -2,8 +2,8 @@
   "name": "nihontekini",
   "description": "The Nihontekini plugin for Claude: Japanese flashcards, quizzes and progress from your Nihontekini app.",
   "owner": {
-    "name": "Max",
-    "url": "https://github.com/sayonara213"
+    "name": "Nihontekini",
+    "url": "https://nihontekini.app"
   },
   "plugins": [
     {
@@ -11,7 +11,11 @@
       "source": "./",
       "description": "Fill your Nihontekini decks, fix cards, check progress and get quizzed on your weak words.",
       "category": "education",
-      "tags": ["japanese", "flashcards", "language-learning"]
+      "tags": [
+        "japanese",
+        "flashcards",
+        "language-learning"
+      ]
     }
   ]
 }
