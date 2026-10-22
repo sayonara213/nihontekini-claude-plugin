@@ -1,7 +1,5 @@
 # Nihontekini plugin for Claude
 
-<img src="assets/icon.png" alt="Nihontekini" width="96">
-
 Lets Claude work with your [Nihontekini](https://nihontekini.app) flashcards. Ask Claude to
 fill your decks with Japanese words, fix cards, check how you are doing, or quiz you on the
 words you keep forgetting. Changes reach your phone the next time the app syncs.
