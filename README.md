@@ -18,16 +18,24 @@ forgetting. Changes reach the phone on its next sync.
 | `skills/progress-check` | A short progress summary with one next step |
 | `skills/plan-and-limits` | Free plan allowance, Premium, and quota refusals |
 
-## Install (Claude Code)
+## Install
+
+**claude.ai, the desktop app and mobile:** go to **Customize > Plugins > Add > Add
+marketplace** and enter `sayonara213/nihontekini-claude-plugin`, then add Nihontekini. Open the
+plugin's **Connectors** tab and connect it once. The plugin then works in chat on web, desktop
+and mobile, in Cowork and in Claude Code.
+
+**Claude Code only:**
 
 ```text
 /plugin marketplace add sayonara213/nihontekini-claude-plugin
 /plugin install nihontekini@nihontekini
 ```
 
-Then run `/mcp`, pick **nihontekini** and sign in in the browser (email code or Sign in with
-Apple). You approve the connection once; revoke it any time in the app under
-**Me > AI agents**.
+Then run `/mcp`, pick **nihontekini** and sign in.
+
+Either way you sign in once in the browser, with an email code or Sign in with Apple, and
+approve the connection. Revoke it any time in the app under **Me > AI agents**.
 
 To try a local checkout instead: `claude --plugin-dir ./nihontekini-claude-plugin`, or
 `/plugin marketplace add ./nihontekini-claude-plugin`.
@@ -47,6 +55,19 @@ Studying your own cards is always free. On the free plan, AI agents can add 50 c
 - "The reading of 今日 in my cards is wrong, fix it"
 - "I already know ありがとう, stop showing it"
 - "How many cards can I still add this month?"
+
+## Data
+
+The plugin has no code of its own. It is skills (instructions for Claude) and one remote MCP
+connector, `https://api.nihontekini.app/mcp`, run by Nihontekini. Through it, Claude reads and
+changes your Nihontekini data: decks and cards, review history and progress, quizzes and your
+answers, and your plan and how much of the free monthly allowance is left. It sends nothing
+anywhere else. See the
+[privacy policy](https://nihontekini.app/privacy) and [terms](https://nihontekini.app/terms).
+
+## Support
+
+Questions and bug reports: [nihontekini.app/contact](https://nihontekini.app/contact).
 
 ## Server
 
