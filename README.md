@@ -76,7 +76,6 @@ Questions and bug reports: [nihontekini.app/contact](https://nihontekini.app/con
 | `.claude-plugin/marketplace.json` | A one-plugin marketplace, so the repo can be added as a marketplace |
 | `.mcp.json` | The Nihontekini remote MCP server (Streamable HTTP, OAuth sign-in) |
 | `skills/` | The five skills above |
-| `assets/icon.png` | Listing icon |
 
 Validate after a change with `claude plugin validate .` and raise `version` in `plugin.json`
 with every release. To try a local checkout: `claude --plugin-dir ./nihontekini-claude-plugin`.
