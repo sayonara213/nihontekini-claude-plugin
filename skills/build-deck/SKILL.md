@@ -50,7 +50,8 @@ The cards reach the phone on its next sync (pull to refresh in the app).
 - A quota refusal (`isError` with a message about the free plan): nothing was added. Don't
   retry or split the batch to get around it. Pass the message on, following
   `plan-and-limits`.
-- An auth error: tell the user to sign in again with `/mcp` and pick Nihontekini.
+- An auth error: tell the user to reconnect Nihontekini. On claude.ai and in the apps that
+  is Customize > Plugins > Nihontekini > Connectors; in Claude Code it is `/mcp`.
 - Never invent a `deck_id`. Get it from `list_decks` or the `add_cards` result.
 
 ## In the chat

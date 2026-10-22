@@ -1,13 +1,13 @@
 {
   "name": "nihontekini",
   "displayName": "Nihontekini",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Fill your Nihontekini Japanese flashcard decks, fix cards, check your progress and get quizzed on the words you keep forgetting.",
   "author": {
-    "name": "Max",
-    "url": "https://github.com/sayonara213"
+    "name": "Nihontekini",
+    "url": "https://nihontekini.app"
   },
-  "homepage": "https://github.com/sayonara213/nihontekini-claude-plugin",
+  "homepage": "https://nihontekini.app",
   "repository": "https://github.com/sayonara213/nihontekini-claude-plugin",
   "license": "MIT",
   "keywords": [
@@ -19,5 +19,9 @@
     "language-learning",
     "mcp"
   ],
-  "icon": "./assets/icon.png"
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/sayonara213/nihontekini-claude-plugin#readme",
+  "supportUrl": "https://nihontekini.app/contact",
+  "privacyPolicyUrl": "https://nihontekini.app/privacy",
+  "termsOfServiceUrl": "https://nihontekini.app/terms"
 }
