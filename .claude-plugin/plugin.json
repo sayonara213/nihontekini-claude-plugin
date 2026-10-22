@@ -1,0 +1,23 @@
+{
+  "name": "nihontekini",
+  "displayName": "Nihontekini",
+  "version": "0.1.0",
+  "description": "Fill your Nihontekini Japanese flashcard decks, fix cards, check your progress and get quizzed on the words you keep forgetting.",
+  "author": {
+    "name": "Max",
+    "url": "https://github.com/sayonara213"
+  },
+  "homepage": "https://github.com/sayonara213/nihontekini-claude-plugin",
+  "repository": "https://github.com/sayonara213/nihontekini-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "japanese",
+    "flashcards",
+    "anki",
+    "fsrs",
+    "jlpt",
+    "language-learning",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png"
+}

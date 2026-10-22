@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nihontekini": {
+      "type": "http",
+      "url": "https://nihontekini-api.onrender.com/mcp"
+    }
+  }
+}
