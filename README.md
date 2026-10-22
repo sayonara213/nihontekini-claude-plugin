@@ -64,6 +64,11 @@ answers, and your plan and how much of the free monthly allowance is left. It se
 anywhere else. See the [privacy policy](https://nihontekini.app/privacy) and
 [terms](https://nihontekini.app/terms).
 
+## Documentation
+
+Every tool, what it can read and change, sign-in, limits and data handling:
+[nihontekini.app/claude](https://nihontekini.app/claude).
+
 ## Support
 
 Questions and bug reports: [nihontekini.app/contact](https://nihontekini.app/contact).
